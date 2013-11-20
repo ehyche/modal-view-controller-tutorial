@@ -39,7 +39,7 @@
 
 - (IBAction)presentBlackButtonTapped:(id)sender {
     MPColorTableViewController* controller = [[MPColorTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
-    controller.colorIndex = 0; // black
+    controller.colorIndex = 0; // dark gray
     [self.navigationController pushViewController:controller animated:YES];
 }
 

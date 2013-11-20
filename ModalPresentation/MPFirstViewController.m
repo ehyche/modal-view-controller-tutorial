@@ -39,7 +39,7 @@
 
 - (IBAction)presentRedButtonTapped:(id)sender {
     MPColorTableViewController* controller = [[MPColorTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
-    controller.colorIndex = 4; //red
+    controller.colorIndex = 3; //red
     [self.navigationController pushViewController:controller animated:YES];
 }
 
